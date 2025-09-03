@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+body{
+    font-family: "poppins";
+}
+.acc-hover:hover{
+    background-color: #5858f1;
+    color: white;
+    transition-duration: 0.70S;
+    
+}
+.cart-hover:hover{
+    background-color: #5858f1;
+    color: white;
+    transition-duration: 0.70S;
+
+}
+
+.contact-info i {
+      font-size: 22px;
+      color: #0d6efd;
+      margin-right: 10px;
+    }
+/* .home::after{
+    content: "";
+      position: absolute;
+      width: 120px;
+      height: 3px;
+      margin-top: 45px;
+      margin-left: -115px;
+      background-color: #ffffff;
+      transition: width 0.3s ease;
+      border-radius: 2px;
+} */
+
+/* .me-5:hover{
+    transform: scale(1.15);
+    transform: translateX(-50%);
+    transition: transform 0.3s, box-shadow 0.3s;
+} */

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Tech</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="shortcut icon" href="logo/NewTech_El.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body class="">
+  <div class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top  ">
+      <div class="container-fluid py-2">
+        <a class="navbar-brand d-flex align-items-center gap-1" href="#">
+          <i class="bi bi-shopping"></i>
+          <span><img src="logo/NewTech_El.png" alt="" srcset="" height="100px"></span>
+        </a>
+
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+          style="background-color: #cfcfcf;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+
+          <a href="cart.html" class=""><button class="cart-hover"
+              style="border-radius: 5px; border: none; width: 100%; padding: 5px 20px;"><i
+                class="bi bi-cart fs-3 fw-bold"></i></button></a>
+
+          <form class="ms-lg-4 my-3 my-lg-0 d-flex w-100" role="search">
+            <input id="searchInput" class=" form-control f search-input me-4 py-2" type="search"
+              placeholder="Search Products.." aria-label="Search"
+              style="border-radius: 7px; border-color: #1d1d1e; ; height: 40px; ">
+
+
+          </form>
+
+          <ul class="navbar-nav ms-auto align-items-lg-center ">
+
+            <a href="admin.html" style="text-decoration: none;"><button class="acc-hover  text-center"
+                style="border-radius: 5px; border: none; justify-content: center; align-items: center; display: flex; padding: 5px 20px; margin-right: 30px; width: 100%;"><i
+                  class="bi bi-person fs-3 me-2 "></i>Account</button></a>
+
+
+
+          </ul>
+
+
+          <!-- <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item me-lg-2 my-1 my-lg-0">
+              <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#customerModal">
+                <i class="fa-regular fa-user"></i>
+                <span id="navCustomerText">Customer Login</span>
+              </button>
+            </li>
+            <li class="nav-item me-lg-2 my-1 my-lg-0">
+              <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#adminModal">
+                <i class="bi bi-gear"></i> Admin
+              </button>
+            </li>
+
+            </li>
+          </ul> -->
+        </div>
+      </div>
+    </nav>
+    <!--dropdown  -->
+    <div class="dropdown container">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        All Categories
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+
+
+    </div>
+
+
+
+  </div>
+
+  <!-- Home -->
+
+  <div class=" py-5 mt-3" style=" background: linear-gradient(115deg, #0c3353, #0b0b0b); width: 100%;;">
+
+
+    <div class="mt-3">
+      <h6 style="color: orange;" class="text-center"></h6>
+      <h2 class="text-center text-light  fw-bold home"><i class="bi bi-house-fill me-3"></i>Home</h2>
+    </div>
+
+    <div class="  py-4">
+      <h4 class="text-center text-light" style="font-size: 50px; ">The Largest <span
+          style="color: #ffa500;">Electronic</span> Center <br> In<span style="color: #fbff00;"> Srilanka</span></h4>
+    </div>
+
+    <div class="text-center mt-3">
+
+      <a href="collection.html"><button class="btn btn-outline-light btn-lg fw-bold" style="border-radius: 30px;">Our
+          Collection</button></a>
+
+      <a href="contact.html"><button class="btn btn-outline-warning btn-lg fw-bold me-2"
+          style="border-radius: 30px; margin-left: 20px; ">Contact</button></a>
+      <!-- <i class="bi bi-phone text me-5" style="font-size: 70px; color: #00d9ff;"></i>
+        <i class="bi bi-laptop text me-5" style="font-size: 70px; color: #00d9ff;"></i>
+        <i class="bi bi-tv text me-5" style="font-size: 70px; color: #00d9ff;"></i>
+        <i class="bi bi-headphones text me-5" style="font-size: 70px; color: #00d9ff;"></i>
+        <i class="bi bi-earbuds text" style="font-size: 70px;"></i> -->
+
+
+    </div>
+
+
+  </div>
+  <div class="container py-4">
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/iphone-ipad-pencil.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/lenovo.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/smproducts.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- details -->
+  <div class="container-fluid">
+    <div class="row py-4 " style="background-color: #284974;">
+
+      <div class="col-md-4 col-sm-12 text-center py-4">
+        <div class="" style="border-radius: 50%;"><i class="bi bi-truck " style="font-size: 70px; color: #fffc50;"></i>
+        </div>
+        <h3 class="text-light fw-bold">Free Delivery</h3>
+        <h5 style="color: #ff9100;">When Order Over 30$</h5>
+      </div>
+
+      <div class="col-md-4 col-sm-12 text-center py-4">
+        <div class="" style="border-radius: 50%;"><i class="bi bi-stopwatch "
+            style="font-size: 70px; color: #fffc50;"></i></div>
+        <h3 class="text-light fw-bold">24/7 Support</h3>
+        <h5 style="color: #ff9100;">Get Support Any Time</h5>
+      </div>
+
+      <div class="col-md-4 col-sm-12 text-center py-4">
+        <div class="" style="border-radius: 50%;"><i class="bi bi-arrow-clockwise "
+            style="font-size: 70px; color: #fffc50;"></i></div>
+        <h3 class="text-light fw-bold">Return</h3>
+        <h5 style="color: #ff9100;">Return With 3 Days</h5>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 " style="justify-content: center; align-items: center; display: flex; "><img
+          src="images/lap.png" alt="" width="100%"></div>
+
+      <div class="col-md-4 py-3 text-center" style="">
+        <h2 style="font-size: 35px; margin-top: 100px;" class=""> <span style="color: #f033f0;">September</span> sale
+          <br>is <br> on!with <br> big Discount <span style="color: #fa3816;"> <br>Sale! Upto 25% </span> off
+        </h2>
+        <a href="shop.html"><button class="btn  mt-4 btn-lg "
+            style="border-radius: 20px; background-color: #0a4da4; color: #fff; width: 120px;">Shop </button></a>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="container-fluid py-4" style="background-color: #ffffff;">
+
+    <div class="container">
+
+      <h1 style="color: #000000;" class=" text-center fw-bold mt-3"> <span class="text-warning">Our</span> Prouducts
+      </h1>
+
+      <div class="row  text-center py-3">
+
+        <h2 class="py-2" style="background-color: #a2a2a4; ">I/Mac Products</h2>
+
+
+        <div class="col-md-4 py-3">
+          <img src="images/macbook.jpg" alt="" width="100%">
+          <h5>Mac Book Pro</h5>
+          <h6>1000$</h6>
+          <div class="py-2 gap-2"><button class="btn text-light text-center"
+              style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-cart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-arrows-angle-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3">
+          <img src="images/phone-15-titanio-natural.png" alt="" width="100%">
+          <h5>I Phone 15</h5>
+          <h6>1200$</h6>
+          <div class="py-2 gap-2"><button class="btn text-light text-center"
+              style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-cart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-arrows-angle-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3">
+          <img src="images/airpods-.png" alt="" width="100%">
+          <h5>Air Pods</h5>
+          <h6>200$</h6>
+          <div class="py-2 gap-2"><button class="btn text-light text-center"
+              style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-cart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-arrows-angle-expand"></i></button>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="row  text-center py-3">
+
+        <h2 class="py-2" style="background-color: #a2a2a4; ">Samsung Products</h2>
+
+
+        <div class="col-md-4 py-3">
+          <img src="images/s25ai.jpg" alt="" width="100%">
+          <h5>S25 Ultra</h5>
+          <h6>1000$</h6>
+          <div class="py-2 gap-2"><button class="btn text-light text-center"
+              style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-cart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-arrows-angle-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3">
+          <img src="images/a-series.png" alt="" width="100%">
+          <h5>Galaxy A Series Phones</h5>
+          <h6>1100$</h6>
+          <div class="py-2 gap-2"><button class="btn text-light text-center"
+              style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-cart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-arrows-angle-expand"></i></button>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3">
+          <img src="images/laptop_samsung.webp" alt="" width="100%">
+          <h5>Galaxy New Laptop</h5>
+          <h6>2000$</h6>
+          <div class="py-2 gap-2"><button class="btn text-light text-center"
+              style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-cart"></i></button>
+            <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                class="bi bi-arrows-angle-expand"></i></button>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="row  text-center py-3">
+            <h2 class="py-2" style="background-color: #a2a2a4; ">Windows Products</h2>
+
+
+            <div class="col-md-4 py-3">
+                <img src="images/macbook.jpg" alt="" width="100%" >
+                <h5>Mac BOOK</h5>
+                <h6>1000$</h6>
+                <h6> </h6>
+                <div class="py-2 gap-2"><button class="btn text-light text-center"
+                        style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-cart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-arrows-angle-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3">
+                <img src="images/asus-vivo.jpg" alt="" width="100%">
+                <h5>Asus Vivobook</h5>
+                <h6>1200$</h6>
+                <h6></h6>
+                <div class="py-2 gap-2"><button class="btn text-light text-center"
+                        style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-cart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-arrows-angle-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3">
+                <img src="images/dell-9950.jpg" alt="" width="100%">
+                <h5>Dell Laptop</h5>
+                <h6>200$</h6>
+                <h6> </h6>
+                <div class="py-2 gap-2"><button class="btn text-light text-center"
+                        style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-cart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-arrows-angle-expand"></i></button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="row  text-center ">
+            
+
+            <div class="col-md-4 py-3">
+                <img src="images/macbook.jpg" alt="" width="100%" >
+                <h5>Mac BOOK</h5>
+                <h6>1000$</h6>
+                <h6> </h6>
+                <div class="py-2 gap-2"><button class="btn text-light text-center"
+                        style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-cart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-arrows-angle-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3">
+                <img src="images/asus-vivo.jpg" alt="" width="100%">
+                <h5>Asus Vivobook</h5>
+                <h6>1200$</h6>
+                <h6></h6>
+                <div class="py-2 gap-2"><button class="btn text-light text-center"
+                        style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-cart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-arrows-angle-expand"></i></button>
+                </div>
+            </div>
+
+            <div class="col-md-4 py-3">
+                <img src="images/dell-9950.jpg" alt="" width="100%">
+                <h5>Dell Laptop</h5>
+                <h6>200$</h6>
+                <h6></h6>
+                <div class="py-2 gap-2"><button class="btn text-light text-center"
+                        style="border-radius: 50%; background-color: #072d6a;"><i class="bi bi-heart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-cart"></i></button>
+                    <button class="btn text-light text-center" style="border-radius: 50%; background-color: #072d6a;"><i
+                            class="bi bi-arrows-angle-expand"></i></button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+  </div>
+
+  <div class="container-fluid" style="background-color: #feffba;">
+    <div class="container ">
+      <div class="row py-3">
+
+        <div class="col-md-6 ">
+          <img src="logo/Newtech_blue.png" alt="" width="90%"
+            style="display: flex; justify-content: center; align-items: center; margin-left: 30px;">
+
+        </div>
+
+        <div class="col-md-6 py-4 text-center">
+          <h2 class="text-center mt-2" style="font-size: 40px;">We are <span style="color: #ff7700;">New Tech</span>
+          </h2>
+          <h5 class="mt-3 text-center">Since 2020</h5>
+          <p class="text-center mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem tempore
+            placeat non nostrum aut nisi ratione quia a odio minus! Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Delectus est assumenda reiciendis adipisci, beatae ea laboriosam deserunt corrupti vitae harum?</p>
+          <button class="text-center mt-2 btn-lg btn" style="background-color: #fafa16;">Our Journey</button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-fluid" style="background-color: #eaeaea;">
+
+    <div class="container">
+      <div class="row py-5">
+
+        <div class="col-md-4 text-center py-3">
+          <i class="bi bi-people " style="font-size: 60px;"></i>
+          <h2>Satisfied Customers</h2>
+          <h3 style="color: #0c3353;" class="fw-bold">2000+</h3>
+        </div>
+
+        <div class="col-md-4 text-center py-3">
+          <i class="bi bi-award-fill " style="font-size: 60px;"></i>
+          <h2>Qulitiy Certificates</h2>
+          <h3 style="color: #0c3353;" class="fw-bold">SLS,IOS</h3>
+        </div>
+
+        <div class="col-md-4 text-center py-3">
+          <i class="bi bi-cpu " style="font-size: 60px;"></i>
+          <h2>Qulitiy Services</h2>
+          <h3 class="fw-bold" style="color: #0c3353;">30+</h3>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="container-fluid ">
+                <div class="row py-3 " style="background-color: plum;">
+
+                    <div class="col-md-4 text-center py-3">
+
+                        <h3>Contact</h3>
+                        <div class="py-2">
+                            <h5><i class="bi bi-envelope me-2"></i> info@etech.lk</h5>
+                            <h5><i class="bi bi-telephone me-2"></i> 070-6669878</h5>
+                            <h5><i class="bi bi-globe me-2"></i> www.newtech.lk</h5>
+                        
+                        </div>
+                        
+
+
+                    </div>
+
+                    <div class="col-md-4 text-center py-3">
+
+                        <h3>Follow Us</h3>
+                        <div class="py-2 text-center d-inline-flex gap-2 ">
+                            <button class="btn btn-primary" style="width: 50px;"><i class="bi bi-facebook fs-4 me-2"></i></button>
+                            <button class="btn btn-dark" style="width: 50px;"><i class="bi bi-tiktok fs-4 me-2"></i></button>
+                            <button class="btn text-light" style="width: 50px; background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7); border: none;"><i class="bi bi-instagram fs-4 me-2"></i></button>
+                        
+                        </div>
+                        
+
+
+                    </div>
+
+                    <div class="col-md-4 text-center py-3">
+
+                        <h3>Subscribe</h3>
+                        <div class="py-2">
+                            <input type="text" placeholder="Subscribe Now" style="height: 50px; border: none; border-radius: 5px;" class="text-center"> 
+                            <button class="btn" style="background-color: #000000; color: #ffffff; height: 48px; width: 90px; "><i class="bi bi-send"></i></button>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
+
+                
+
+            </footer>
+
+
+
+
+
+  <!-- fixed btn -->
+
+  <a href="https://wa.me/94703597699?text=Hi%20there%2C%20I%27d%20like%20to%20know%20more." class="whatsapp-float"
+    target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+
+
+
+    <i class="bi bi-whatsapp fs-4"></i>
+    <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <!-- 2) Add this CSS (in your CSS file or inside <style> ... </style>) -->
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      right: max(16px, env(safe-area-inset-right));
+      bottom: max(16px, env(safe-area-inset-bottom));
+      width: 56px;
+      height: 56px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 9999px;
+      background: #25D366;
+      /* WhatsApp green */
+      color: white;
+      /* icon color via currentColor */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .2), 0 6px 6px rgba(0, 0, 0, .15);
+      text-decoration: none;
+      z-index: 2147483647;
+      /* stay on top of everything */
+      transition: transform .15s ease, box-shadow .15s ease, opacity .2s ease;
+      opacity: 0.98;
+    }
+
+    .whatsapp-float:hover {
+      transform: translateY(-2px) scale(1.03);
+    }
+
+    .whatsapp-float:active {
+      transform: translateY(0) scale(0.98);
+    }
+
+    .whatsapp-float svg {
+      width: 28px;
+      height: 28px;
+      pointer-events: none;
+    }
+
+    /* Optional tooltip */
+    .whatsapp-tooltip {
+      position: absolute;
+      right: 64px;
+      bottom: 50%;
+      transform: translateY(50%);
+      background: rgba(0, 0, 0, .75);
+      color: #fff;
+      font-size: 12px;
+      line-height: 1;
+      padding: 8px 10px;
+      border-radius: 8px;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .15s ease;
+    }
+
+    .whatsapp-float:hover .whatsapp-tooltip {
+      opacity: 1;
+    }
+
+    /* Respect dark mode with a softer shadow edge */
+    @media (prefers-color-scheme: dark) {
+      .whatsapp-float {
+        box-shadow: 0 10px 18px rgba(0, 0, 0, .35), 0 6px 6px rgba(0, 0, 0, .25);
+      }
+    }
+
+    /* Make sure it never blocks native UI on very small screens */
+    @media (max-width: 380px) {
+      .whatsapp-float {
+        width: 52px;
+        height: 52px;
+      }
+
+      .whatsapp-float svg {
+        width: 26px;
+        height: 26px;
+      }
+    }
+  </style>
+
+
+
+
+
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
